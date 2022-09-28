@@ -2,5 +2,12 @@
   "name": "dir-index-webpack-plugin",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "description": "Generate a .json Module with all files path under a directory",
+  "author": "Seven Chen",
+  "homepage": "https://github.com/askdaddy/dir-index-webpack-plugin",
+  "bugs": "https://github.com/askdaddy/dir-index-webpack-plugin/issues",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 16.17.0"
+  }
 }
