@@ -52,7 +52,7 @@ DirIndexPlugin.prototype.apply = function (compiler) {
     dir = path.join(compiler.options.context, dir);
     if (compiler.options.context === dir) throw 'Do NOT index at project root !!!';
 
-    compiler.hooks.beforeRun.tapAsync(pluginName, function (compilation, callback) {
+    compiler.hooks.beforeCompile.tapAsync(pluginName, function (compilation, callback) {
         const files = readDirSyncRecursive(dir)
             , dist = Array.from(files, f => {
             return f.split(path.sep).join(path.posix.sep);
