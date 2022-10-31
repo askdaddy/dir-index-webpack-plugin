@@ -1,6 +1,6 @@
 {
   "name": "dir-index-webpack-plugin",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "index.js",
   "description": "Generate a .json Module with all files path under a directory",
   "author": "Seven Chen",
